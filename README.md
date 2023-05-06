@@ -16,6 +16,5 @@ create same structure or create your own, but don't forget to change names in co
 
 - [Install cargo, Rust env. etc.](https://www.rust-lang.org/tools/install)
 - ```cargo run```
-or check releases in GH repo.
 
 All settings are saved in AppSettings.toml
