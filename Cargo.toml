@@ -1,0 +1,20 @@
+[package]
+name = "gigachat_teloxide_bot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+teloxide = { version = "0.12", features = ["macros"] }
+log = "0.4"
+pretty_env_logger = "0.4"
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+config = "0.13.3"
+serde = "1.0.160"
+serde_derive = "1.0.160"
+lazy_static = "1.4.0"
+mongodb = "2.5.0"  
+async_once = "0.2.6"
+futures = "0.3.28"
+once_cell = "1.17.1"

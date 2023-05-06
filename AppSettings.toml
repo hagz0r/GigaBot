@@ -1,0 +1,14 @@
+#This is where the general settings of the project are stored, 
+#Such as special tokens and so on.
+
+
+
+#Telegram bot api token
+tg_bot_token = "Token"
+#Gigachat API
+gigachat_api_token = "Token"
+#Donates
+ETH_Address = "Address"
+#Mongodb
+mongo_DB = "Connection string"
+
